@@ -1,2 +1,2 @@
-### TestFile - Lesson 1
+### Training 1
 this is a test file 
