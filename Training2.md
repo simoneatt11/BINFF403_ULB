@@ -1,1 +1,2 @@
-### Training 2 - 6 Nov 2024
+### Training 2
+#### 6 Nov 2024
