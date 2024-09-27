@@ -39,10 +39,25 @@ fetch 1T0V
 ```
 
 Open 1N0S in Pymol. Test the menus on the right (A-S-H-L-C). Show the protein with
-the "Cartoon" representation (menu "S"). Select the chain A of the protein ("select xxx, chain
-A", where xxx is the name of the menu that will be created for the selected items), and represent
-this chain in a different color (menu "C"). Hide the "Cartoon" representation (menu "H") and
-show the sticks representation.
+the "Cartoon" representation (menu "S"). 
+
+```
+select 1T0V
+show cartoon
+```
+
+Select the chain A of the protein ("select xxx, chain A", where xxx is the name of the menu that will be created for the selected items), and represent this chain in a different color (menu "C").
+
+```
+select 1T0V
+select chain A
+show cartoon
+show sticks
+colour paleblue
+```
+
+
+Hide the "Cartoon" representation (menu "H") and show the sticks representation.
 
 B] Download the electronic density file of 1N0S from the Virtual University: 1n0sM1.ccp4.
 This file has been obtained from the "Electron Density Server". Open this file in Pymol. In the
@@ -86,3 +101,10 @@ new menu on the right of the Pymol window, choose a mutation into phenylalanine 
 click on the amino acid number 100. You can test the different possible conformers of the side
 chain with the arrows on the bottom right of the Pymol window. The red disks show the steric
 clashes.
+
+
+
+---
+### References 
+- [PyMol Command Reference](https://pymol.org/pymol-command-ref.html)
+- 
