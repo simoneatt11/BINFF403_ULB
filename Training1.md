@@ -31,7 +31,14 @@ The Pymol software will be used to visualize the structures. The Pymol software 
 manual are provided on the Virtual University.
 
 A] Download the PDB files of 1N0S and 1T0V (menu on the right, "Download files – PDB
-text"). Open 1N0S in Pymol. Test the menus on the right (A-S-H-L-C). Show the protein with
+text"). 
+
+```
+fetch 1N0S
+fetch 1T0V
+```
+
+Open 1N0S in Pymol. Test the menus on the right (A-S-H-L-C). Show the protein with
 the "Cartoon" representation (menu "S"). Select the chain A of the protein ("select xxx, chain
 A", where xxx is the name of the menu that will be created for the selected items), and represent
 this chain in a different color (menu "C"). Hide the "Cartoon" representation (menu "H") and
